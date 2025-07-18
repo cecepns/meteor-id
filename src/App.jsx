@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Partners from './components/Partners';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
       {/* <Partners /> */}
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }

@@ -1,4 +1,12 @@
 const Services = () => {
+  const phoneNumber = "6289503669666";
+  
+  const handleWhatsAppClick = (packageName, price) => {
+    const message = `Halo! Saya tertarik dengan paket ${packageName} seharga ${price}/bulan. Bisa tolong info lebih lanjut?`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const packages = [
     {
       name: "Lite",
@@ -119,6 +127,7 @@ const Services = () => {
               </ul>
 
               <button
+                onClick={() => handleWhatsAppClick(pkg.name, pkg.price)}
                 className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
                   pkg.popular
                     ? "bg-primary-500 text-white hover:bg-primary-600"
