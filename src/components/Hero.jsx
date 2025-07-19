@@ -1,7 +1,7 @@
 import HeroImage from "../assets/banner1.jpg";
 const Hero = () => {
   return (
-    <section id="home" className="bg-gradient-to-br from-primary-50 to-accent-50 pt-44 section-padding rounded-b-3xl">
+    <section id="home" className="bg-gradient-to-br from-primary-50 to-accent-50 pt-24 md:pt-44 section-padding rounded-b-3xl">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div data-aos="fade-up">
