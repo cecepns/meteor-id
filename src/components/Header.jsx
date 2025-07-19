@@ -26,7 +26,7 @@ const Header = () => {
           </nav>
           
           <div className="hidden md:flex items-center space-x-4">
-            <button className="btn-primary">Hubungi Kami</button>
+            <a href="#contact" className="btn-primary">Hubungi Kami</a>
           </div>
           
           <div className="md:hidden">
