@@ -21,7 +21,6 @@ const Header = () => {
             <a href="#services" className="text-gray-700 hover:text-primary-500 transition-colors">Layanan</a>
             <a href="#about" className="text-gray-700 hover:text-primary-500 transition-colors">Tentang Kami</a>
             <a href="#testimonials" className="text-gray-700 hover:text-primary-500 transition-colors">Testimoni</a>
-            <a href="#partners" className="text-gray-700 hover:text-primary-500 transition-colors">Mitra</a>
             <a href="#contact" className="text-gray-700 hover:text-primary-500 transition-colors">Kontak</a>
           </nav>
           
@@ -45,7 +44,6 @@ const Header = () => {
               <a href="#services" className="text-gray-700 hover:text-primary-500 py-2">Layanan</a>
               <a href="#about" className="text-gray-700 hover:text-primary-500 py-2">Tentang Kami</a>
               <a href="#testimonials" className="text-gray-700 hover:text-primary-500 py-2">Testimoni</a>
-              <a href="#partners" className="text-gray-700 hover:text-primary-500 py-2">Mitra</a>
               <a href="#contact" className="text-gray-700 hover:text-primary-500 py-2">Kontak</a>
             </nav>
           </div>
