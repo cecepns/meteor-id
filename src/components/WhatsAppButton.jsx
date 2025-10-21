@@ -1,5 +1,5 @@
 const WhatsAppButton = () => {
-  const phoneNumber = "628973057999";
+  const phoneNumber = "6285715706666";
   const message = "Halo! Saya tertarik dengan layanan internet Meteor ID. Bisa tolong info lebih lanjut?";
 
   const handleWhatsAppClick = () => {
