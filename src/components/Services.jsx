@@ -1,5 +1,5 @@
 const Services = () => {
-  const phoneNumber = "6289521569426";
+  const phoneNumber = "628973057999";
   
   const handleWhatsAppClick = (packageName, price) => {
     const message = `Halo! Saya tertarik dengan paket ${packageName} seharga ${price}/bulan. Bisa tolong info lebih lanjut?`;
